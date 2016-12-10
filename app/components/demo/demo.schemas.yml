@@ -1,0 +1,6 @@
+Demo:
+  POST:
+    body:
+      username: String
+      password: String | Password
+      password-check: String | Password | equal:@password
