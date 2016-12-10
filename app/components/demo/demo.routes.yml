@@ -1,0 +1,10 @@
+Demo:
+  method:
+    - GET
+    - POST
+    - PATCH
+  path: /demo
+  controller: DemoController
+  middlewares:
+    - demo
+    # - example2
