@@ -1,5 +1,9 @@
 'use strict';
 
-const Hybrid = require('./hybridjs-framework/hybrid.js');
+// For dev
+// const Hybrid = require('./hybridjs-framework/hybrid.js');
+
+// For demo
+const Hybrid = require('hybridjs');
 
 new Hybrid(__dirname);
