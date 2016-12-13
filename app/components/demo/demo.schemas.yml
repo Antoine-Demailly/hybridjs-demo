@@ -4,3 +4,4 @@ Demo:
       username: String
       password: String | Password
       password-check: String | Password | equal:@password
+      age: Number

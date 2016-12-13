@@ -31,6 +31,7 @@ function ExampleController() {
   }
 
   function postDemo(req, res) {
+    console.log('body', req.body);
     res.send('POST Demo');
   }
 

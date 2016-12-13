@@ -1,12 +1,14 @@
+# Config app
 app:
   name: HybridJS-Demo
   port: 8888
   environment: local
-  secret: &@éé&sojèè!!bo
 
+# Config dependencies
 dependencies:
   middlewares:
     # - bodyparser
+    - test
   components:
     - demo
 
